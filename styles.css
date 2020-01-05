@@ -1,4 +1,120 @@
 * {
     font-family: 'Roboto', sans-serif;
-
 }
+
+body, ul, li{
+    margin: 0px;
+    padding:0px;
+}
+
+p{
+    color: #d6d6d6;
+    padding-bottom: 30px;
+}
+
+h1,h2,h3{
+    color:1e2528;
+}
+
+.wrapper{
+    width: 96%;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background: #ffffff;
+    padding: 20px 0;
+}
+
+
+header h1{
+    margin: 0;
+    text-indent: -10000px;
+    background: url(images/logo.jpg) no-repeat;
+    width:110px;
+    float: left;
+    height: 80px;
+    margin-left: 320px;
+}
+
+header nav{
+    float: right;
+    padding: 50px;
+    font-size: 14px;
+    margin-right: 200px;
+}
+
+header nav ul{
+    margin:0;
+    padding: 0;
+}
+
+header nav li{
+    list-style-type: none;
+    float:left;
+    margin-left:20px;
+  
+}
+nav{
+    padding: 0px;
+    margin: 0px;
+}
+nav:after{
+    display: block;
+    content: "";
+    clear: both; 
+}
+div#main-banner {
+    margin: 60;
+    margin-left: 0;
+    position: absolute;
+}
+
+div#benner-text {
+    width: auto;
+    position: absolute;
+    top: 200px;
+    left: 350;
+    width: 600px;
+}
+
+h3#spaHeader {
+    color: #ff817e;
+}
+
+h1#spaHeader {
+    font-size: 60px;
+}
+
+button.reserve {
+    margin: 0px;
+    /* padding: 13px; */
+    /* padding-top: 10px; */
+    padding: 14px;
+    font-size: 13px;
+    width: 130px;
+    background: #ff817e;
+    color: #ffffff;
+    padding-bottom: 8px;
+}
+div#flower {
+    left: 260px;
+    position: absolute;
+}
+
+img.play {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+span {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 25px;
+    /* top: 60px; */
+    font-size: 15px;
+    color: #d6d6d6;
+}
+
