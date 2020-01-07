@@ -9,7 +9,7 @@ body, ul, li{
 
 p{
     color: #d6d6d6;
-    padding-bottom: 30px;
+    
 }
 
 h1,h2,h3{
@@ -21,13 +21,14 @@ h1,h2,h3{
     max-width: 1900px;
     margin: 0 auto;
     padding: 0 2%;
+    
 }
 
 header{
     background: #ffffff;
     padding: 20px 0;
+    
 }
-
 
 header h1{
     margin: 0;
@@ -55,7 +56,6 @@ header nav li{
     list-style-type: none;
     float:left;
     margin-left:20px;
-  
 }
 nav{
     padding: 0px;
@@ -66,55 +66,103 @@ nav:after{
     content: "";
     clear: both; 
 }
-div#main-banner {
-    margin: 60;
-    margin-left: 0;
-    position: absolute;
-}
 
-div#benner-text {
-    width: auto;
-    position: absolute;
-    top: 200px;
-    left: 350;
-    width: 600px;
-}
-
-h3#spaHeader {
-    color: #ff817e;
-}
-
-h1#spaHeader {
+h1#spaHeader{
     font-size: 60px;
 }
 
+.empty{
+    margin-top: 60px;
+}
+
+.text{
+    margin-top: 250px;
+    margin-left: 350px;
+    width: 625px
+}
+
+.img{ 
+    float: left;
+}
+h3#spaTitle{
+    font-size:15px;
+    color: #ff9593;
+}
+
 button.reserve {
-    margin: 0px;
-    /* padding: 13px; */
-    /* padding-top: 10px; */
-    padding: 14px;
-    font-size: 13px;
-    width: 130px;
     background: #ff817e;
-    color: #ffffff;
-    padding-bottom: 8px;
+    color: #ffff;
+    padding: 15px;
+    /* margin: 15; */
 }
-div#flower {
-    left: 260px;
+.playDiv {
     position: absolute;
+    top: 585px;
+    left: 499px;
 }
 
-img.play {
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-span {
-    position: absolute;
-    margin-left: 70px;
-    margin-top: 25px;
-    /* top: 60px; */
-    font-size: 15px;
-    color: #d6d6d6;
+.lef {
+    text-align: center;
+    margin: 20px;
+    display: block;
 }
 
+.description {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.gray{
+        color: #d6d6d6;
+}
+
+.pink-flower {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -20;
+    /* margin-right: 2%; */
+    /* display: inline-block; */
+}
+button.readMore{
+    background: #ff817e;
+    color: #ffff;
+    padding: 9px;
+    border-radius: 20px;
+    text-align: center;
+    /* position: absolute; */
+    display: block;
+    margin: 0 auto;
+    
+    }
+
+section#bodyTreatment {
+    position: relative;
+}
+
+*/
+.col-2, .col-1, .col-3, .col-4 {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    box-sizing: border-box;
+    color: aqua;
+}
+
+/*
+img.no-padding {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.no-padding-Test {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 31%;
+}
+
+*/
