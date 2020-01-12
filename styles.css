@@ -12,9 +12,13 @@ p{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     padding-bottom: 30px;
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+    
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 =======
     
 >>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
@@ -44,11 +48,15 @@ header{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 header h1 {
 =======
 
 header h1{
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+header h1{
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 =======
 header h1{
 >>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
@@ -81,6 +89,7 @@ header nav li{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     float: left;
     margin-left: 20px;
 =======
@@ -88,6 +97,10 @@ header nav li{
     margin-left:20px;
   
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+    float:left;
+    margin-left:20px;
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 =======
     float:left;
     margin-left:20px;
@@ -166,7 +179,10 @@ button.reserve {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 =======
 >>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 =======
@@ -190,12 +206,20 @@ button.reserve {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .gray {
     color: #d6d6d6;
 =======
 div#flower {
     left: 260px;
+=======
+.gray{
+        color: #d6d6d6;
+}
+
+.pink-flower {
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
     position: absolute;
 >>>>>>> parent of 3f0019c... Banner - CSS
 =======
@@ -216,8 +240,12 @@ img.play {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 button.readMore {
+=======
+button.readMore{
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 =======
 button.readMore{
 >>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
@@ -265,6 +293,7 @@ img.no-padding {
     left: 31%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 .profile::after {
@@ -360,6 +389,9 @@ span {
 }
 
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+*/
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 =======
 */
 >>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
