@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    /* avoids issues witht he widtha nd the padding */
     box-sizing: border-box;
 }
 
@@ -99,9 +98,6 @@ h1#spaHeader {
 }
 
 .text {
-    /* right: 200px; */
-    /* margin-top: 250px; */
-    /* margin-left: 350px; */
     max-width: 625px;
     position: relative;
     float: left;
@@ -117,28 +113,21 @@ button.reserve {
     background: #ff817e;
     color: #ffff;
     padding: 15px;
-    /* margin: 15; */
 }
 
 .playDiv {
     position: absolute;
-    /* top: 585px; */
-    /* left: 499px; */
-    /* float: left; */
-    /* margin: 10px; */
     left: 150px;
     top: 300px;
 }
 
 .lef {
     text-align: center;
-    /* margin: 20px; */
-    /* display: block; */
-    /* position: relative; */
     display: block;
-    /* padding-top: 81px; */
     max-width: 100px;
     margin: 0 auto;
+    padding: 10px;
+    position: relative;
 }
 
 .description {
@@ -155,8 +144,6 @@ button.reserve {
     position: absolute;
     margin-left: 60%;
     margin-top: -20;
-    /* margin-right: 2%; */
-    /* display: inline-block; */
 }
 
 button.readMore {
@@ -165,7 +152,6 @@ button.readMore {
     padding: 9px;
     border-radius: 20px;
     text-align: center;
-    /* position: absolute; */
     display: block;
     margin: 0 auto;
 }
@@ -188,7 +174,6 @@ section#bodyTreatment {
 .imgBaner {
     float: left;
     width: 20%;
-    /* max-width: 1300%; */
 }
 
 .imgBaner:after {
@@ -252,9 +237,7 @@ img.no-padding {
     color: white;
     top: 60%;
     left: 30%;
-    /* max-width: 182%; */
     display: block;
-    /* max-width: 156px; */
     margin-left: 1%;
 }
 
@@ -324,7 +307,6 @@ section#experiencedTeam::after {
 h1.no-padding-h1 {
     padding: 0px;
     margin: 0px;
-    /* position: relative; */
     display: block;
 }
 
@@ -356,27 +338,13 @@ ul.social {
     content: "";
 }
 
-
-/*
-li {
-    padding: 5px 0px;
-    text-align: center;
-    margin: 0px auto;
-    width: 10%;
-    display: inline-block;
-}
-*/
-
 .whiteBlock {
     background-color: white;
-    /* margin-top: 0; */
     z-index: 1;
     position: absolute;
     margin: 0 auto;
     padding: 1px 20px 0px 1px;
     width: 325px;
-    /* top: 20px; */
-    /* top: 450px; */
     top: 80%;
     left: 9%;
 }
@@ -388,7 +356,6 @@ li {
 }
 
 .containerProfile {
-    /* margin: 70px; */
     margin: 40px 50px;
 }
 
@@ -421,7 +388,6 @@ select {
 section#form {
     background-color: #fff9f8;
     padding: 60px;
-    /* margin: 40px; */
 }
 
 ul#social li {
@@ -431,4 +397,28 @@ ul#social li {
     width: 10%;
     display: inline-block;
     list-style-type: none;
+}
+
+ul#footerNAV li {
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0px auto;
+    width: 10%;
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul#footerNAV {
+    padding: 0px;
+    margin: 0px auto;
+    width: 750px;
+    position: absolute;
+    left: 33.33%;
+    padding-top: 10px;
+}
+
+.footerMenu {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
 }
