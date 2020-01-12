@@ -13,6 +13,10 @@ li {
 
 p {
     color: #d6d6d6;
+<<<<<<< HEAD
+=======
+    padding-bottom: 30px;
+>>>>>>> parent of 3f0019c... Banner - CSS
 }
 
 h1,
@@ -33,7 +37,12 @@ header {
     padding: 20px 0;
 }
 
+<<<<<<< HEAD
 header h1 {
+=======
+
+header h1{
+>>>>>>> parent of 3f0019c... Banner - CSS
     margin: 0;
     text-indent: -10000px;
     background: url(images/logo.jpg) no-repeat;
@@ -69,8 +78,14 @@ header nav ul {
 
 header nav li {
     list-style-type: none;
+<<<<<<< HEAD
     float: left;
     margin-left: 20px;
+=======
+    float:left;
+    margin-left:20px;
+  
+>>>>>>> parent of 3f0019c... Banner - CSS
 }
 
 header nav li:after {
@@ -89,6 +104,7 @@ nav:after {
     content: "";
     clear: both;
 }
+<<<<<<< HEAD
 
 h1#spaHeader {
     font-size: 60px;
@@ -111,14 +127,42 @@ h1#spaHeader {
 h3#spaTitle {
     font-size: 15px;
     color: #ff9593;
+=======
+div#main-banner {
+    margin: 60;
+    margin-left: 0;
+    position: absolute;
+}
+
+div#benner-text {
+    width: auto;
+    position: absolute;
+    top: 200px;
+    left: 350;
+    width: 600px;
+}
+
+h3#spaHeader {
+    color: #ff817e;
+}
+
+h1#spaHeader {
+    font-size: 60px;
+>>>>>>> parent of 3f0019c... Banner - CSS
 }
 
 button.reserve {
+    margin: 0px;
+    /* padding: 13px; */
+    /* padding-top: 10px; */
+    padding: 14px;
+    font-size: 13px;
+    width: 130px;
     background: #ff817e;
-    color: #ffff;
-    padding: 15px;
-    /* margin: 15; */
+    color: #ffffff;
+    padding-bottom: 8px;
 }
+<<<<<<< HEAD
 
 .playDiv {
     position: absolute;
@@ -149,15 +193,19 @@ button.reserve {
 
 .gray {
     color: #d6d6d6;
+=======
+div#flower {
+    left: 260px;
+    position: absolute;
+>>>>>>> parent of 3f0019c... Banner - CSS
 }
 
-.pink-flower {
+img.play {
     position: absolute;
-    margin-left: 60%;
-    margin-top: -20;
-    /* margin-right: 2%; */
-    /* display: inline-block; */
+    margin-left: 10px;
+    margin-top: 10px;
 }
+<<<<<<< HEAD
 
 button.readMore {
     background: #ff817e;
@@ -432,3 +480,14 @@ ul#social li {
     display: inline-block;
     list-style-type: none;
 }
+=======
+span {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 25px;
+    /* top: 60px; */
+    font-size: 15px;
+    color: #d6d6d6;
+}
+
+>>>>>>> parent of 3f0019c... Banner - CSS
