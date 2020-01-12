@@ -1,83 +1,76 @@
 * {
     font-family: 'Roboto', sans-serif;
-    /* avoids issues witht he widtha nd the padding */
-    box-sizing: border-box;
 }
 
-body,
-ul,
-li {
+body, ul, li{
     margin: 0px;
-    padding: 0px;
+    padding:0px;
 }
 
-p {
+p{
     color: #d6d6d6;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     padding-bottom: 30px;
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+    
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 }
 
-h1,
-h2,
-h3 {
-    color: 1e2528;
+h1,h2,h3{
+    color:1e2528;
 }
 
-.wrapper {
+.wrapper{
     width: 96%;
     max-width: 1900px;
     margin: 0 auto;
     padding: 0 2%;
+    
 }
 
-header {
+header{
     background: #ffffff;
     padding: 20px 0;
+    
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 header h1 {
 =======
 
 header h1{
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+header h1{
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
     margin: 0;
     text-indent: -10000px;
     background: url(images/logo.jpg) no-repeat;
-    width: 110px;
+    width:110px;
     float: left;
     height: 80px;
     margin-left: 320px;
 }
 
-header h1:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-header nav {
+header nav{
     float: right;
     padding: 50px;
     font-size: 14px;
     margin-right: 200px;
 }
 
-header nav:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-header nav ul {
-    margin: 0;
+header nav ul{
+    margin:0;
     padding: 0;
 }
 
-header nav li {
+header nav li{
     list-style-type: none;
+<<<<<<< HEAD
 <<<<<<< HEAD
     float: left;
     margin-left: 20px;
@@ -86,46 +79,41 @@ header nav li {
     margin-left:20px;
   
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+    float:left;
+    margin-left:20px;
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 }
-
-header nav li:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-nav {
+nav{
     padding: 0px;
     margin: 0px;
 }
-
-nav:after {
+nav:after{
     display: block;
     content: "";
-    clear: both;
+    clear: both; 
 }
 <<<<<<< HEAD
 
-h1#spaHeader {
+h1#spaHeader{
     font-size: 60px;
 }
 
-.empty {
+.empty{
     margin-top: 60px;
 }
 
-.text {
-    /* right: 200px; */
-    /* margin-top: 250px; */
-    /* margin-left: 350px; */
-    max-width: 625px;
-    position: relative;
-    float: left;
-    left: 6%;
+.text{
+    margin-top: 250px;
+    margin-left: 350px;
+    width: 625px
 }
 
-h3#spaTitle {
-    font-size: 15px;
+.img{ 
+    float: left;
+}
+h3#spaTitle{
+    font-size:15px;
     color: #ff9593;
 =======
 div#main-banner {
@@ -163,26 +151,20 @@ button.reserve {
     padding-bottom: 8px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 .playDiv {
     position: absolute;
-    /* top: 585px; */
-    /* left: 499px; */
-    /* float: left; */
-    /* margin: 10px; */
-    left: 150px;
-    top: 300px;
+    top: 585px;
+    left: 499px;
 }
 
 .lef {
     text-align: center;
-    /* margin: 20px; */
-    /* display: block; */
-    /* position: relative; */
+    margin: 20px;
     display: block;
-    /* padding-top: 81px; */
-    max-width: 100px;
-    margin: 0 auto;
 }
 
 .description {
@@ -190,6 +172,7 @@ button.reserve {
     width: 600px;
     margin: 0 auto;
 }
+<<<<<<< HEAD
 
 .gray {
     color: #d6d6d6;
@@ -198,6 +181,10 @@ div#flower {
     left: 260px;
     position: absolute;
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+.gray{
+        color: #d6d6d6;
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
 }
 
 img.play {
@@ -206,8 +193,12 @@ img.play {
     margin-top: 10px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 button.readMore {
+=======
+button.readMore{
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
     background: #ff817e;
     color: #ffff;
     padding: 9px;
@@ -216,76 +207,23 @@ button.readMore {
     /* position: absolute; */
     display: block;
     margin: 0 auto;
-}
+    
+    }
 
 section#bodyTreatment {
     position: relative;
 }
 
-.banner {
+*/
+.col-2, .col-1, .col-3, .col-4 {
     float: left;
-    width: 120%;
+    width: 33.3%;
+    padding: 50px;
+    box-sizing: border-box;
+    color: aqua;
 }
 
-.banner:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-.imgBaner {
-    float: left;
-    width: 20%;
-    /* max-width: 1300%; */
-}
-
-.imgBaner:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-.container {
-    display: -webkit-flex;
-    display: flex;
-}
-
-.initial {
-    -webkit-flex: initial;
-    flex: initial;
-    width: 200px;
-    min-width: 100px;
-}
-
-.container {
-    display: flex;
-    text-align: center;
-    border-color: black;
-    margin-top: 20px;
-}
-
-.flex2 {
-    display: flex;
-    text-align: center;
-    border: 1px solid white;
-    margin-top: 20px;
-    height: 400px;
-    background-color: #fe8d8b;
-    -webkit-flex: 2;
-    flex: 2;
-}
-
-.flex3 {
-    display: flex;
-    text-align: center;
-    border: 1px solid white;
-    margin-top: 20px;
-    height: 400px;
-    background-color: #fe8d8b;
-    -webkit-flex: 2;
-    flex: 2;
-}
-
+/*
 img.no-padding {
     margin: 0px;
     padding: 0px;
@@ -293,111 +231,16 @@ img.no-padding {
     top: 50%;
     left: 35%;
 }
-
 .no-padding-Test {
+    margin: 0px;
     padding: 0px;
     position: absolute;
     color: white;
     top: 60%;
-    left: 30%;
-    /* max-width: 182%; */
-    display: block;
-    /* max-width: 156px; */
-    margin-left: 1%;
+    left: 31%;
 }
 
-.text:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-.block {
-    display: block;
-    position: relative;
-}
-
-.block:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-.blocks {
-    width: 31%;
-    margin: 0.5%;
-    display: inline-block;
-    padding: 20px;
-    border: 2px solid #acb2b9;
-    margin-left: 1.0%;
-    text-align: center;
-}
-
-.blocks:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-.textCenter {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-}
-
-img.full-width {
-    width: 100%;
-}
-
-.quote {
-    text-align: center;
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: #fff9f8;
-}
-
-section#quotes {
-    background-color: #fff9f8;
-    padding: 20px;
-}
-
-section#experiencedTeam::after {
-    display: block;
-    content: "";
-    clear: both;
-}
-
-h1.no-padding-h1 {
-    padding: 0px;
-    margin: 0px;
-    /* position: relative; */
-    display: block;
-}
-
-img.quote {
-    height: auto;
-    width: auto;
-    border-radius: 70%;
-    padding: 0px;
-    margin: 0 auto;
-}
-
-ul.social {
-    list-style-type: none;
-    margin: 0px -59px;
-}
-
-.profile {
-    width: 31.33%;
-    text-align: center;
-    margin: 1%;
-    float: left;
-    padding: 1%;
-    position: relative;
-}
-
+<<<<<<< HEAD
 .profile::after {
     display: block;
     clear: both;
@@ -491,3 +334,6 @@ span {
 }
 
 >>>>>>> parent of 3f0019c... Banner - CSS
+=======
+*/
+>>>>>>> parent of 4bd4197... CSS - Optimized of 10" and 14"
